@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Over</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
    <div class="container">
@@ -12,24 +13,23 @@
 
         <div class="col">
                 <img src="./assets/csk.png" class="profile-icon" alt="csk" height="150px" width="150px">
-                <span class="name" id="team-1-name">CSK</span>
+                <span class="name" id="team-1-name"></span>
                 <div class="row round-runs" id="team-1-round-runs">
-                    <span class="col">1</span>
-                    <span class="col">0</span>
-                    <span class="col">w</span>
-                    <span class="col">2</span>
-                    <span class="col">1</span>
-                    <span class="col">6</span>
-
+                    <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
                 </div>
         </div>
         
         <div class="row">
             <div class="col">
                 <div class="row score">
-                    <span id="team-1-score">5</span>
+                    <span id="team-1-score"></span>
                     <span>-</span>
-                    <span id="team-2-score">2</span>
+                    <span id="team-2-score"></span>
     
                 </div>
             </div>
@@ -37,18 +37,23 @@
        
        <div class="col">
         <img src="./assets/MI.png" class="profile-icon" alt="mi" height="150px" width="150px">
-        <span class="name" id="team-2-name">MI</span>
+        <span class="name" id="team-2-name"></span>
         <div class="row round-runs" id="team-2-round-runs">
-            <span class="col">6</span>
-            <span class="col">0</span>
-            <span class="col">w</span>
-            <span class="col">2</span>
-            <span class="col">1</span>
-            <span class="col">6</span>
-
-        </div>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+        </div>                                               
     </div>
    </div>
+   <div class="row">
+       <button id="strike-button" onclick="handleStrikeButtonClick()" >Strike </button>
+   </div>
+   <div class="row" id="result" hidden></div>
+
+<script src="./app.js"></script>
 </body>
 </html>
 
