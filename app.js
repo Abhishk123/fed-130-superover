@@ -10,7 +10,7 @@ array.forEach((element)=> {
 var PossibleRuns=[1,2,3,4,5,6];
 
 var team1={
-    name:"CSK-S",
+    name:"CSK",
     runs:[],
     score : 0
 }
